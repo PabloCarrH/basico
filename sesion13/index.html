@@ -19,11 +19,23 @@
 
         //funcion con parametros
         function sumar(a,b){
-            return a * b;
+            return a + b;
         }
 
         let resultado=sumar(8,5);
         document.write("La suma es : "+resultado);
+
+        //funcion que retorna un valor
+        function par(numero){
+            if(numero % 2==0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        let numero=10;
+        let esNumeroPar=par(numero);
+        document.write("Es "+numero+ " par? "+esNumeroPar);
 
 
     </script>
