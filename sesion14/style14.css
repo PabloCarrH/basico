@@ -91,3 +91,24 @@ main{
     font-size: 1.5em;
     cursor: pointer;
 }
+.nav-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background-color: #575757;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    position: relative;
+}
